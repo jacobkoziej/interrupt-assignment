@@ -45,7 +45,7 @@ void loop()
 void toggle_white()
 {
 	static uint8_t state = 0;
-	state= !state;
+	state = !state;
 
 	digitalWrite(8, state);
 }
@@ -53,7 +53,7 @@ void toggle_white()
 void toggle_red()
 {
 	static uint8_t state = 0;
-	state= !state;
+	state = !state;
 
 	digitalWrite(7, state);
 }
